@@ -14,7 +14,7 @@
         <section id="login">
            
             <div id="imagem">
-
+                
             </div>
             
             <div id="formulario">
@@ -23,7 +23,13 @@
                 
                 <p>Seja bem-vindo novamente! Faça Login para acessar sua conta!</p>
                 
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="off">
+                    
+                    <p><label for="iemail:">Email: </label><input type="email" name="email" id="iemail" placeholder="Digite Seu Email" required></p>
+                    
+                    <p><label for="isenha">Senha: </label><input type="password" name="senha" id="isenha" placeholder="Digite Sua Senha" min="6" required></p>
+
+                    <p><input type="submit" value="Login" id="enviar"></p>
 
                 </form>
             
