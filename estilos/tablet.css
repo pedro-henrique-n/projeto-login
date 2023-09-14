@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body, html{
+    background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+}
+
+
+section#login{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0, 0.450);
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section#login > div#imagem{
+   
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+
+}
+section#login > div#formulario{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    margin: 10px;
+    
+}

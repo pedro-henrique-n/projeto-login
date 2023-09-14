@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width:992px)">
 </head>
 
 <body>
@@ -25,9 +27,9 @@
                 
                 <form action="login.php" method="post" autocomplete="off">
                     
-                    <p><label for="iemail:">Email: </label><input type="email" name="email" id="iemail" placeholder="Digite Seu Email" required></p>
+                    <p><label for="iemail:">Email: </label><input type="email" name="email" id="iemail" placeholder="Digite Seu Email"  required></p>
                     
-                    <p><label for="isenha">Senha: </label><input type="password" name="senha" id="isenha" placeholder="Digite Sua Senha" min="6" required></p>
+                    <p><label for="isenha">Senha: </label><input type="password" name="senha" id="isenha" placeholder="Digite Sua Senha" minlength="8" required></p>
 
                     <p><input type="submit" value="Login" id="enviar"></p>
 
