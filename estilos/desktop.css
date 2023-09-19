@@ -5,14 +5,15 @@ body, html{
 }
 
 section#login{
-    
+    display: flex;
+    flex-direction: row-reverse;
     height: 350px;
     width: 990px;
 
 }
 
 section#login > div#imagem{
-   float: right;
+    
    width: 50%;
    height: 100%;
 
@@ -20,7 +21,7 @@ section#login > div#imagem{
 section#login > div#formulario{
     float: left;
     width: 50%;
-    
+   
 }
 
 #formulario>p{
