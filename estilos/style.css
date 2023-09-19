@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
-/*
-paleta
-verde: #49a09d
-lilas: #5f2c82
-*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 
 *{
     margin: 0px;
@@ -42,6 +39,12 @@ section#login{
     transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+}
+
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 25px;
+    
 }
 
 section#login > div#imagem{
