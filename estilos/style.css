@@ -136,6 +136,9 @@ form > input[type=submit]{
 
 form > input[type=submit]:hover{
     background-color: #6cd3cf;
+    transform: scale(1);
+    outline: 2px solid #67adb9;
+    box-shadow: 4px 5px 17px -4px #2f8997;
 }
 
 .botao{
@@ -154,8 +157,11 @@ form > input[type=submit]:hover{
 }
 
 a.botao:hover{
+    color: #ffffff;
     background-color: #222034;
-    color: white;
+    transform: scale(1);
+    outline: 2px solid #67adb9;
+    box-shadow: 4px 5px 17px -4px #2f8997;
     
 }
 
