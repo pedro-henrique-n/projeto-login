@@ -32,8 +32,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow:  16px 16px 32px #161417,
-    -16px -16px 32px #2e2c31;
+    box-shadow:    19px 19px 59px #12111c,
+    -19px -19px 59px #322f4c;
 
     position: absolute;
     top: 50%;
@@ -75,13 +75,15 @@ div#formulario>h1{
 }
 
 form > div.campo{
-    background-color: #5f2c82;
-    border: 2px solid #602c82;
+    background: linear-gradient(90deg, rgb(196, 222, 252) 0%, rgb(211, 232, 255) 100%);
+   
     width: 100%;
-    display: block;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 div.campo > label{
@@ -89,28 +91,34 @@ div.campo > label{
 }
 
 div.campo > span{
-    color: white;
+    color: rgb(0, 0, 0);
+    align-self: baseline;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 
 div.campo > input{
-    background-color: #94cfcda8;
+
+    background-color: #461b1b00;
     font-size: 1em;
+    width: 100%;
     height:100%;
     border:0px;
     border-radius: 8px;
-    padding: 4px;
-    width: calc(100% - 45px);
-    transform: translateY(-12px);
+    padding:0px;
+    align-self: self-start;
+    
 }
 
-div.campo > input:focus-within{
-    background-color: white;
+div.campo > input:focus-within, .campo:focus-within{
+    background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);
     border: none;
+    outline: none;
+    
+    
 }
-
+/* submit buttons style */
 form > input[type=submit]{
     display: block;
     font-size: 1em;
@@ -124,7 +132,7 @@ form > input[type=submit]{
 }
 
 form > input[type=submit]:hover{
-    background-color: #222024;
+    background-color: #6cd3cf;
 }
 
 .botao{
@@ -143,7 +151,8 @@ form > input[type=submit]:hover{
 }
 
 a.botao:hover{
-    background-color: #6cd3cf;
+    background-color: #222034;
+    color: white;
     
 }
 
